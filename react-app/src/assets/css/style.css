@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+.header {
+    width: 100%;
+}
+.header .left {
+    float: left;
+}
+.header .right {
+    float: right;
+}
+.header .left, .header .right {
+    width: 50%;
+    height: 120px;
+    border-bottom: 1px solid black;
+    background-color: #fcece7;
+}
+
+.header .logo, .header .slogan {
+    padding-left: 10%;
+}
+.header .logo {
+    margin-top: 11px;
+}
+
+.header .right .nav {
+    margin-top: 30px;
+    margin-left: 65%;
+}
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    font-size: 25px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.content {
+    min-height: 100%;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.content h1 {
+    color: #0a6eb4;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fcece7;
+    color: black;
+    text-align: center;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.article_item {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 1px solid red;
+    padding-bottom : 20px;
+}
+
+.articletitle {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.articleinfo span {
+    font-weight: 600;
+    color: red;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
